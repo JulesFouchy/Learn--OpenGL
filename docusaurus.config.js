@@ -9,8 +9,8 @@ const projectName = "Learn--OpenGL";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Learn OpenGL',
+  tagline: 'Learn OpenGL',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -26,14 +26,14 @@ const config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fr',
+    locales: ['fr'],
   },
 
   presets: [
@@ -42,6 +42,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+            path: "content",
+            routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
         },
         theme: {
@@ -55,19 +57,61 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/opengl_logo.png',
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'OpenGL Logo',
+          src: 'img/opengl_logo.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'TP1/intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'TP1',
+          },
+          {
+            type: 'doc',
+            docId: 'TP2/telecharger-le-template',
+            position: 'left',
+            label: 'TP2',
+          },
+          {
+            type: 'doc',
+            docId: 'TP3/telecharger-le-template',
+            position: 'left',
+            label: 'TP3',
+          },
+          {
+            type: 'doc',
+            docId: 'TP4/telecharger-le-template',
+            position: 'left',
+            label: 'TP4',
+          },
+          {
+            type: 'doc',
+            docId: 'TP5/telecharger-le-template',
+            position: 'left',
+            label: 'TP5',
+          },
+          {
+            type: 'doc',
+            docId: 'TP6/telecharger-le-template',
+            position: 'left',
+            label: 'TP6',
+          },
+          {
+            type: 'doc',
+            docId: 'TP7/telecharger-le-template',
+            position: 'left',
+            label: 'TP7',
+          },
+          {
+            type: 'doc',
+            docId: 'TP8/telecharger-le-template',
+            position: 'left',
+            label: 'TP8',
           },
           {
             type: 'doc',
@@ -76,7 +120,7 @@ const config = {
             label: 'Ressources',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/JulesFouchy/Learn--OpenGL',
             label: 'GitHub',
             position: 'right',
           },
@@ -84,48 +128,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Les sujets de TP (dont les blagues et le style jeune cool) ont été rédigés par <a href=http://laurentnoel.fr/>Laurent NOËL</a>.`,
       },
       prism: {
         theme: lightCodeTheme,

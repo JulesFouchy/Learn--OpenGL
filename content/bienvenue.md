@@ -1,9 +1,9 @@
 ---
-sidebar_position: 1
-title: Introduction
+title: ""
+slug: /
 ---
 
-#### OpenGL3+ | Embrace the 3D wizardry
+### OpenGL3+ | Embrace the 3D wizardry
 
 Bienvenue dans le merveilleux monde de la 3D. Ici vous apprendrez que parfois les maths ça sert et même qu'on peut faire de jolies choses avec.
 
