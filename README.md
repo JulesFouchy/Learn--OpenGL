@@ -1,4 +1,13 @@
-# Website
+# Learn--OpenGL
+
+Reprend les cours de ... avec les améliorations suivantes :
+
+- Moins de fautes de français
+- Fonctionne sous tous les OS sans avoir rien à faire
+- Pas de bugs
+- Un setup un peu plus moderne, qui offre nottament un debug OpenGL grandement facilité
+- De l'écriture inclusive !
+- Mise à jour de qques infos out-of-date
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
