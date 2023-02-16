@@ -7,7 +7,7 @@ title: Introduction
 Ces TPs sont là pour vous apprendre la "nouvelle" version d'OpenGL, baptisée souvent OpenGL 3 (par opposition aux vieilles versions OpenGL 2). OpenGL 3 est souvent jugé plus compliqué qu'OpenGL 2. En réalité ce qui est plus compliqué c'est surtout de s'y mettre 😛 En effet, la quantité de code necessaire pour obtenir un simple triangle coloré est impressionante, ce qui a de quoi décourager. Néammoins une fois ce code mis en place il reste généralement tout le temps identique ou presque, d'où l'intéret de vous créer une base de code que vous allez pouvoir réutiliser entre les différents TPs.
 
 
-## Qu'est ce que OpenGL ?
+## Qu'est ce qu'OpenGL ?
 
 OpenGL est une **API** (Application Programming Interface) destinée au **rendu** par **rasterisation**. Ça fait beaucoup de mots compliqués, on va donc détailler un peu tout ça !
 
