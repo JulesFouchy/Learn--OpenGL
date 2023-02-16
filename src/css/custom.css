@@ -33,3 +33,14 @@
     display: inline-block;
     width: 30%;
 }
+.ink-badge {
+    border-radius: 8em;
+    color: #fff;
+    padding: .2em .6em;
+    font-size: .813em;
+    margin-left: .6em;
+}
+
+.ink-badge.red {
+    background: #c91111;
+}
