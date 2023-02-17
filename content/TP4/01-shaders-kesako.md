@@ -3,6 +3,10 @@ title: Télécharger le template
 ---
 import ToDo from "@site/src/components/ToDo"
 
+## TP4 : Dive into the GPU - les shaders
+
+![](img/intro.jpg)
+
 Vous n'en aurez pas besoin car tout est expliqué dans les TPs au fur et à mesure, mais si jamais, vous pouvez retrouver la documentation de la bibliothèque p6 [ici](https://julesfouchy.github.io/p6-docs/).
 
 <ToDo/> Télécharger l'archive de code en choisissant dans les versions suivantes :
