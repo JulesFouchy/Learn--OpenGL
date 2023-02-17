@@ -44,3 +44,26 @@
 .ink-badge.red {
     background: #c91111;
 }
+.TPS-container {
+    display: flex;
+    margin: 10px;
+}
+
+.TP {
+    flex: 1;
+    margin: 10px;
+    padding: 0;
+    position: relative;
+}
+
+.TP-image {
+    border: 1px black solid;
+}
+
+[data-theme='dark'] .TP-image {
+    border: 1px white solid;
+}
+
+.TP-caption {
+    font-weight: bold;
+}
