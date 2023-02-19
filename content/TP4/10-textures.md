@@ -43,7 +43,7 @@ Jusqu'à présent nous avions mis les coordonnées de texture des vertex à $(0,
 
 </div>
 
-Le coin haut-gauche a pour coordonnées $(0, 0)$ et le coin bas-droit $(1, 1)$ (quelles que soient les dimensions de l'image d'entrée).
+Le coin bas-gauche a pour coordonnées $(0, 0)$ et le coin haut-droit $(1, 1)$ (quelles que soient les dimensions de l'image d'entrée).
 
 Dans le tableau de sommets, modifiez les coordonnées de texture de chacun des sommets à partir du schéma ci-dessus.
 
