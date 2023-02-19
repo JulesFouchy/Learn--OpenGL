@@ -9,6 +9,7 @@ Reprend les cours de ... avec les améliorations suivantes :
 - De l'écriture inclusive !
 - Mise à jour de qques infos out-of-date
 - Les consignes de l'exercice "Dessiner un triangle blanc" sont garanties de vous donner un triangle blanc à la fin
+- Pas besoin de relancer CMake a chaque fois que vous changez vos shaders
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 

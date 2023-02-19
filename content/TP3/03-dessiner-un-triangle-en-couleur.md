@@ -10,8 +10,8 @@ Dans le code d'initialisation, rajoutez
 
 ```cpp
 const p6::Shader shader = p6::load_shader(
-    "TP1_exo2_triangle_couleurs/shaders/triangle.vs.glsl",
-    "TP1_exo2_triangle_couleurs/shaders/triangle.fs.glsl"
+    "shaders/triangle.vs.glsl",
+    "shaders/triangle.fs.glsl"
 );
 ```
 
