@@ -4,6 +4,10 @@ title: Jouer avec les shaders
 
 Après toutes ces explications un peu barbantes (mais nécessaires :p) sur les shaders, on va pouvoir commencer à jouer un peu. Vous allez pour l'instant travailler sur les deux shaders d'exemple qui ont l'avantage d'être simples.
 
+## Configurer son IDE
+
+Qui dit nouveau langage dit nouvelle config d'IDE. Si vous utilisez VSCode je vous recommande l'extension [raczzalan.webgl-glsl-editor](https://marketplace.visualstudio.com/items?itemName=raczzalan.webgl-glsl-editor) qui fournira tout ce dont vous avez besoin (coloration syntaxique, auto-complétion, documentation au survol des fonctions, etc.).
+
 ## Le triangle générique
 
 Une fois n'est pas coutume, faites une copie du code du triangle en couleur. Nous allons expérimenter différents shaders dessus.
