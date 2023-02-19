@@ -135,7 +135,7 @@ const config = {
             label: 'Ressources',
           },
           {
-            href: 'https://github.com/JulesFouchy/Learn--OpenGL',
+            href: 'https://github.com/JulesFouchy/Learn--OpenGL/issues/new/choose',
             label: 'GitHub',
             position: 'right',
           },
