@@ -4,7 +4,7 @@ title: Dessiner un triangle en couleur
 
 L'objectif à présent est de dessiner un triangle en couleur. Mais en OpenGL3, la couleur n'est pas gratuite : il faut utiliser des shaders. Nous verrons comment écrire et interagir avec des shaders lors du prochain TP. Pour ce TP je vais vous fournir des shaders déjà codés que vous chargerez en utilisant la classe fournie dans le template.
 
-Copiez le code du `main` de `TP1_exo1_triangle_blanc` dans celui de `TP1_exo2_triangle_couleurs`. Faites l'exercice dans ce dernier.
+Copiez le code du `main` de `TP3_exo1_triangle_blanc` dans celui de `TP3_exo2_triangle_couleurs`. Faites l'exercice dans ce dernier.
 
 Dans le code d'initialisation, rajoutez
 
@@ -54,7 +54,7 @@ Puisqu'on rajoute l'attribut couleur, il faut le spécifier. Il faut également 
 
 ### Connaître l'index associé aux attributs
 
-Comme mentionné précédemment, chaque attribut est identifié par un index. Dans l'exercice précédent, on n'utilisait pas de shader, et la position était identifiée par l'index 0 (par défaut en OpenGL). À présent, on utilise des shaders. Pour connaître l'index associé à chaque attribut, ouvrez le fichier `triangle.vs.glsl` qui est dans le dossier `shaders` de `TP1_exo2_triangle_couleurs`. En début de fichier, vous devriez lire les lignes :
+Comme mentionné précédemment, chaque attribut est identifié par un index. Dans l'exercice précédent, on n'utilisait pas de shader, et la position était identifiée par l'index 0 (par défaut en OpenGL). À présent, on utilise des shaders. Pour connaître l'index associé à chaque attribut, ouvrez le fichier `triangle.vs.glsl` qui est dans le dossier `shaders` de `TP3_exo2_triangle_couleurs`. En début de fichier, vous devriez lire les lignes :
 
 ```glsl
 layout(location = 3) in vec2 aVertexPosition;

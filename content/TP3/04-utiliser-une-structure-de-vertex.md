@@ -2,10 +2,10 @@
 title: Utiliser une structure de vertex
 ---
 
-Jusqu'à présent nous avons envoyé nos sommets comme des sauvages sous la forme de flottants. Nous allons maintenant utiliser une structure pour représenter un vertex, ce qui permettra d'avoir un code plus clair à lire. Dupliquez le dossier TP1_exo2_triangle_couleur.cpp et renommez le TP1_exo3_structure_vertex.cpp puis codez dedans. Il vous faudra aussi ajouter ce nouveau dossier à la fin du `CMakeLists.txt`:
+Jusqu'à présent nous avons envoyé nos sommets comme des sauvages sous la forme de flottants. Nous allons maintenant utiliser une structure pour représenter un vertex, ce qui permettra d'avoir un code plus clair à lire. Dupliquez le dossier TP3_exo2_triangle_couleur.cpp et renommez le TP3_exo3_structure_vertex.cpp puis codez dedans. Il vous faudra aussi ajouter ce nouveau dossier à la fin du `CMakeLists.txt`:
 
 ```cmake
-add_exercise(TP1_exo3_structure_vertex)
+add_exercise(TP3_exo3_structure_vertex)
 ```
 
 ## Définir la structure

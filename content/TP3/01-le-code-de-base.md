@@ -7,14 +7,14 @@ import ToDo from "@site/src/components/ToDo"
 
 ![](img/intro.png)
 
-Commençons par jeter un œil au code de base du fichier `TP1/main.cpp`.
+Commençons par jeter un œil au code de base du fichier `TP3/main.cpp`.
 
 ```cpp
 #include "p6/p6.h"
 
 int main()
 {
-    auto ctx = p6::Context{{.title = "TP1"}};
+    auto ctx = p6::Context{{.title = "TP3"}};
     ctx.maximize_window();
 
     /*********************************
@@ -36,10 +36,10 @@ int main()
 Comme vous pouvez le constater le code est assez court. La classe `p6::Context` se charge de gérer tous les détails pour nous : ouverture de fenêtre, récupération d'évènements clavier-souris, etc. Ainsi la ligne :
 
 ```cpp
-auto ctx = p6::Context{{.title = "TP1"}};
+auto ctx = p6::Context{{.title = "TP3"}};
 ```
 
-va ouvrir une fenêtre dont le titre est "TP1".
+va ouvrir une fenêtre dont le titre est "TP3".
 
 Pour les TPs, vous devrez placer le code d'initialisation à cet endroit :
 

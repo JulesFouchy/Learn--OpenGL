@@ -38,9 +38,9 @@ Une fois qu'un VS et un FS ont été compilés, il faut les lier en un programme
 
 ## Utiliser le code fourni
 
-Le code que je vous ai fourni vous permet de charger, compiler et utiliser des shaders GLSL. Vous l'avez déjà utilisé au TP1 pour afficher le triangle en couleur.
+Le code que je vous ai fourni vous permet de charger, compiler et utiliser des shaders GLSL. Vous l'avez déjà utilisé au TP3 pour afficher le triangle en couleur.
 
-Pour que le tout fonctionne bien, les shaders doivent être placés dans le répertoire `shader` correspondant à l'exo courant (donc TP2 actuellement). Le fichier CMake se charge de copier ce répertoire dans le build afin d'avoir un chemin de fichier relatif à l'exécutable. À chaque fois qu'un shader est ajouté ou changé, il est automatiquement copié dans le build.
+Pour que le tout fonctionne bien, les shaders doivent être placés dans le répertoire `shader` correspondant à l'exo courant (donc TP4 actuellement). Le fichier CMake se charge de copier ce répertoire dans le build afin d'avoir un chemin de fichier relatif à l'exécutable. À chaque fois qu'un shader est ajouté ou changé, il est automatiquement copié dans le build.
 
 La classe `p6::Shader` représente un programme GPU. La fonction `p6::load_shader()` charge et compile un vertex shader et un fragment shader pour produire un programme. Si une erreur de compilation est détectée, une exception est lancée par la fonction et arrête votre exécutable. L'erreur est affichée et vous pouvez la corriger.
 
@@ -55,9 +55,9 @@ const p6::Shader shader = p6::load_shader(
 
 Il faut bien évidemment remplacer `[VERTEX_SHADER]` par le nom du fichier contenant le code source du VS et `[FRAGMENT_SHADER]` par le nom du fichier contenant le code source du FS.
 
-Dans le TP2, copiez le code C++ permettant de dessiner un triangle en couleur (celui du TP1).
+Dans le TP4, copiez le code C++ permettant de dessiner un triangle en couleur (celui du TP3).
 
-Dans le dossier shader du TP2, créez deux fichiers `color2D.vs.glsl` et `color2D.fs.glsl`. Dans ces deux fichiers, copiez-collez le code des shaders expliqués précédemment :
+Dans le dossier shader du TP4, créez deux fichiers `color2D.vs.glsl` et `color2D.fs.glsl`. Dans ces deux fichiers, copiez-collez le code des shaders expliqués précédemment :
 
 <div style={{display: 'flex'}}>
 

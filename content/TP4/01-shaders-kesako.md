@@ -64,4 +64,4 @@ Deux points importants à retenir :
 - Un vertex shader traite un vertex provenant du CPU (envoyé par votre code C++) et produit une position projetée à l'écran.
 - Un fragment shader traite un fragment généré par le rasterizer et produit une couleur à afficher à l'écran dans le pixel correspondant au fragment.
 
-Afin de conserver le code du TP1 tel quel, dupliquez le répertoire TPtemplate et renommez le TP2. Travaillez dedans pour ce TP. 
+Afin de conserver le code du TP3 tel quel, dupliquez le répertoire et renommez le TP4. Travaillez dedans pour ce TP. 

@@ -8,7 +8,7 @@ Tout d'abord, un peu de pratique. Afin de se mettre dans le bain, vous allez des
 Pour cet exercice, évitez de copier-coller le code de cette page : recopiez le manuellement. Ça peut paraître un peu idiot, mais cela permet de mémoriser plus facilement les fonctions à utiliser et mieux intégrer l'enchaînement des opérations.
 :::
 
-Vous coderez dans le `main.cpp` du dossier `TP1_exo1_triangle_blanc`. Au cours de l'exercice, pensez à compiler régulièrement pour vérifier les erreurs de syntaxe au fur à mesure.
+Vous coderez dans le `main.cpp` du dossier `TP3_exo1_triangle_blanc`. Au cours de l'exercice, pensez à compiler régulièrement pour vérifier les erreurs de syntaxe au fur à mesure.
 
 :::tip
 Faites attention à bien sélectionner la bonne target de l'exercice que vous êtes en train de faire !
