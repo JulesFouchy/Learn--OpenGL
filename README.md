@@ -8,6 +8,7 @@ Reprend les cours de ... avec les améliorations suivantes :
 - Un setup un peu plus moderne, qui offre nottament un debug OpenGL grandement facilité
 - De l'écriture inclusive !
 - Mise à jour de qques infos out-of-date
+- Les consignes de l'exercice "Dessiner un triangle blanc" sont garanties de vous donner un triangle blanc à la fin
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 

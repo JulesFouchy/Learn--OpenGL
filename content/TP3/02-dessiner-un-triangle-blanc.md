@@ -126,9 +126,9 @@ Exemple d'utilisation :
 
 ```cpp
 GLfloat vertices[] = {
-    -0.5f, -0.5f,
-     0.5f, -0.5f,
-     0.0f,  0.5f
+    -0.5f, -0.5f, // Premier sommet
+     0.5f, -0.5f, // Deuxième sommet
+     0.0f,  0.5f  // Troisième sommet
 };
 glBufferData(GL_ARRAY_BUFFER, 6 * sizeof(GLfloat), vertices, GL_STATIC_DRAW);
 ```
