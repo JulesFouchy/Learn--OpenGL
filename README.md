@@ -6,7 +6,7 @@ Reprend les cours de ... avec les améliorations suivantes :
 - Fonctionne sous tous les OS sans avoir rien à faire
 - Pas de bugs
 - Un setup un peu plus moderne, qui offre nottament un debug OpenGL grandement facilité
-- De l'écriture inclusive !
+- De l'écriture inclusive ! (et pas de termes homophobes)
 - Mise à jour de qques infos out-of-date
 - Les consignes de l'exercice "Dessiner un triangle blanc" sont garanties de vous donner un triangle blanc à la fin
 - Pas besoin de relancer CMake a chaque fois que vous changez vos shaders
