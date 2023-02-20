@@ -7,7 +7,7 @@ Ces classes sont fournies avec le template, dans le dossier `src-common` partag�
 Par exemple :
 
 ```cpp
-glimac::Sphere sphere{1, 32, 16};
+glimac::Sphere sphere{1.f, 32, 16};
 ```
 
 Construit une sphère de rayon 1 et discrétisée selon 32 segments sur la latitude et 16 sur la longitude. Un constructeur similaire existe pour `Cone`.
