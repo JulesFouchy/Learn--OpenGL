@@ -327,7 +327,7 @@ On y est presque ! Il reste à libérer les ressources allouées sur GPU : le VB
 
 ## Conclusion
 
-Exercice terminé ! C'était long, mais nécessaire car si vous avez bien compris chacune des étapes alors vous avez fait le plus dur en OpenGL3 côté CPU (c'est à dire du côté du code C++). Vous pouvez essayer votre programme et un triangle blanc devrait s'afficher ... enfin peut-être ! En fait il nous manque une étape (les shaders). Avec un peu de chance votre carte graphique propose un shader par défaut, mais ce n'est pas garanti ! Si vous ne voyez rien, vous pouvez include le fichier `default_shader.hpp` et appeler `bind_default_shader();` juste avant la fonction `glDrawArrays`.
+Exercice terminé ! C'était long, mais nécessaire car si vous avez bien compris chacune des étapes alors vous avez fait le plus dur en OpenGL3 côté CPU (c'est à dire du côté du code C++). Vous pouvez essayer votre programme et un triangle blanc devrait s'afficher ... enfin peut-être ! En fait il nous manque une étape (les shaders). Avec un peu de chance votre carte graphique propose un shader par défaut, mais ce n'est pas garanti ! Si vous ne voyez rien, vous pouvez include le fichier `glimac/default_shader.hpp` et appeler `glimac::bind_default_shader();` juste avant la fonction `glDrawArrays`.
 
 ![](img/white_triangle.png)
 
