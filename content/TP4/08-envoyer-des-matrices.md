@@ -6,7 +6,9 @@ Votre triangle doit tourner correctement, mais le code n'est pas efficace : nous
 
 ## Les matrices sur CPU
 
-La bibliothèque glm permet d'utiliser des matrices grâce aux types `glm::mat2`, `glm::mat3` et `glm::mat4` (ainsi que d'autres types pour les matrices rectangulaires). Elle propose également des fonctions pour construire les matrices de transformation standard. Malheureusement ces fonctions renvoient des matrices 4x4 (adaptées à la 3D). Nous les utiliserons dans les prochains TPs. Pour le moment nous avons besoin de matrices 3x3. Vous allez donc re-coder, dans votre code C++, les fonctions pour créer des matrices que vous avez déjà implanté dans le shader.
+La bibliothèque glm permet d'utiliser des matrices grâce aux types `glm::mat2`, `glm::mat3` et `glm::mat4` (ainsi que d'autres types pour les matrices rectangulaires). Elle propose également des fonctions pour construire les matrices de transformation standard. Malheureusement ces fonctions renvoient des matrices 4x4 (adaptées à la 3D)[^1]. Nous les utiliserons dans les prochains TPs. Pour le moment nous avons besoin de matrices 3x3. Vous allez donc re-coder, dans votre code C++, les fonctions pour créer des matrices que vous avez déjà implanté dans le shader.
+
+[^1]: Bon, ce n'est pas tout à fait vrai. Les versions 2D existent aussi et se trouvent dans le header `glm/gtx/matrix_transform_2d.hpp`. Mais re-codez les quand même, c'est un bon exercice !
 
 Écrivez les fonctions `translate`, `scale` et `rotate`. Chacune doit renvoyer une matrice de type `glm::mat3`. Reprenez le code des fonctions équivalentes codées en GLSL pour vous aider.
 
