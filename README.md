@@ -1,52 +1,13 @@
-# Learn--OpenGL
+# Learn OpenGL 3+
 
-Reprend les cours de ... avec les améliorations suivantes :
+Ce site reprend [les TPs de Laurent Noël](https://igm.univ-mlv.fr/~biri/Enseignement/IMAC2/opengl-TPs/opengl.php) avec les quelques modifications suivantes :
 
-- Moins de fautes de français
-- Fonctionne sous tous les OS sans avoir rien à faire
-- Pas de bugs
-- Un setup un peu plus moderne, qui offre nottament un debug OpenGL grandement facilité
-- De l'écriture inclusive ! (et pas de termes homophobes)
-- Mise à jour de qques infos out-of-date
-- Les consignes de l'exercice "Dessiner un triangle blanc" sont garanties de vous donner un triangle blanc à la fin
-- Pas besoin de relancer CMake a chaque fois que vous changez vos shaders
-
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- Le template de TP se base sur la librairie [p6](https://julesfouchy.github.io/p6-docs/) au lieu de SDL. Cela permet que :
+  - Le template de TP s'installe facilement et fonctionne sous tous les OS sans avoir rien à faire.
+  - Le setup est un peu plus moderne et offre notamment un debug OpenGL grandement facilité. (Activation du ["Debug Output"](https://www.khronos.org/opengl/wiki/Debug_Output) qui fournit des messages d'erreur bien plus détaillés.)
+- Correction de quelques bugs mineurs dans le code fourni avec le template.
+- Rajout d'une petite étape pour garantir que les consignes de l'exercice "Dessiner un triangle blanc" vous affichent bel et bien un triangle blanc à la fin.
+- Pas besoin de relancer le CMake à chaque fois que l'on modifie un shader.
+- Mise à jour de quelques informations out-of-date.
+- Moins de fautes de français.
+- De l'écriture inclusive ! (et pas de termes homophobes).
