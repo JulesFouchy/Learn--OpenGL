@@ -13,7 +13,8 @@ Le rendu direct c'est ce que vous avez pratiqué en Synthèse d'Image 1 : utilis
 
 int main()
 {
-    auto ctx = p6::Context{};
+    auto ctx = p6::Context{{1280, 720, "TP OpenGL"}};
+    ctx.maximize_window();
 
     ctx.update = [&]() {
         glBegin(GL_TRIANGLES);
@@ -75,7 +76,8 @@ Voici un exemple de code qui affiche un triangle ... peut-être (En fait il nous
 
 int main()
 {
-    auto ctx = p6::Context{};
+    auto ctx = p6::Context{{1280, 720, "TP OpenGL"}};
+    ctx.maximize_window();
 
     // Création d'un Vertex Buffer Object et d'un Vertex Array Object
     GLuint vbo, vao;

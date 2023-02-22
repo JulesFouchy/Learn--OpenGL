@@ -23,7 +23,8 @@ struct Vertex2DColor {
 
 int main()
 {
-    auto ctx = p6::Context{};
+    auto ctx = p6::Context{{1280, 720, "TP OpenGL"}};
+    ctx.maximize_window();
 
     const p6::Shader shader = p6::load_shader(
         "shaders/triangle.vs.glsl",
