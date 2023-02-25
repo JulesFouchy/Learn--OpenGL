@@ -16,6 +16,8 @@ Toujours à l'initialisation, récupérez les **location** des variables uniform
 
 Ajoutez la ligne `glEnable(GL_DEPTH_TEST);` qui permet d'activer le test de profondeur du GPU. Sans cet appel de fonction, certains triangles non visibles viendraient recouvrir des triangles situés devant.
 
+Dans la boucle de rendu à présent :
+
 Créez 3 variables de type `glm::mat4` : `ProjMatrix`, `MVMatrix` et `NormalMatrix`.
 
 Calculez la matrice `ProjMatrix` en utilisant la fonction `glm::perspective`. Le premier paramètre est l'angle vertical de vue (mettez `glm::radians(70.f)`), le second est le ratio de la largeur de la fenêtre par sa hauteur (utilisez `ctx.aspect_ratio()`), les deux derniers sont le near et le far plane qui définissent une range de vision sur l'axe de la profondeur : mettez `0.1f` et `100.f`.
@@ -28,7 +30,7 @@ Calculez la matrice `NormalMatrix` en utilisant les fonction `glm::inverse` et `
 
 Rappel: $NormalMatrix = (MV^{-1})^T$, c'est-à-dire : `glm::mat4 NormalMatrix = glm::transpose(glm::inverse(MVMatrix));`
 
-Dans la boucle de rendu à présent : remplacez la ligne `glClear(GL_COLOR_BUFFER_BIT);` par `glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);`. Cela permet de nettoyer le depth buffer à chaque tour de boucle.
+Remplacez la ligne `glClear(GL_COLOR_BUFFER_BIT);` par `glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);`. Cela permet de nettoyer le depth buffer à chaque tour de boucle.
 
 À la suite, envoyez les matrices au GPU en utilisant la fonction `glUniformMatrix4fv`. Pour la matrice MVP, il faut envoyer `ProjMatrix * MVMatrix`. (N'oubliez pas d'utiliser la fonction `glm::value_ptr` pour récupérer le pointeur sur les données de chacune des matrices).
 
