@@ -93,10 +93,10 @@ Le Fragment Shader est destiné à traiter des fragments (i.e. des pixels). Il f
 
 in vec3 vFragColor;
 
-out vec3 fFragColor;
+out vec4 fFragColor;
 
 void main() {
-  fFragColor = vFragColor;
+  fFragColor = vec4(vFragColor, 1.);
 };
 ```
 
@@ -122,14 +122,14 @@ Les valeurs que récupérera notre fragment shader ne seront pas exactement les 
 La ligne:
 
 ```glsl
-out vec3 fFragColor;
+out vec4 fFragColor;
 ```
 
 déclare la variable de sortie du FS destinée à contenir la couleur finale du pixel correspondant au fragment. Vous pouvez nommer cette variable comme vous voulez : OpenGL sait que s'il n'y a qu'une seule variable de sortie alors il doit l'interpréter comme une couleur et l'afficher à l'écran si le fragment est visible.
 
 À noter qu'il est possible d'avoir plusieurs variables de sortie (pour écrire dans plusieurs images à la fois) mais nous n'utiliserons pas cette fonctionnalité durant ces TPs.
 
-Et enfin le `main` ne fait qu'une chose : transférer la couleur d'entrée vers la couleur de sortie. À nouveau on pourrait appliquer des traitements sur cette couleur pour faire quelque chose de plus intéressant.
+Et enfin le `main` ne fait qu'une chose : transférer la couleur d'entrée vers la couleur de sortie (et mettre 1 dans le channel alpha, ce qui nous donnera une couleur parfaitement opaque). À nouveau on pourrait appliquer des traitements sur cette couleur pour faire quelque chose de plus intéressant.
 
 ## Des vrais shaders
 

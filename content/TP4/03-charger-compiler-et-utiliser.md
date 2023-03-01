@@ -80,10 +80,10 @@ void main() {
 
 in vec3 vFragColor;
 
-out vec3 fFragColor;
+out vec4 fFragColor;
 
 void main() {
-  fFragColor = vFragColor;
+  fFragColor = vec4(vFragColor, 1.);
 };
 ```
 
