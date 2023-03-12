@@ -15,7 +15,7 @@ Il est possible de combiner les transformations avec GLM en utilisant le premier
 ```cpp
 glm::mat4 MVMatrix = glm::translate(glm::mat4{1.f}, {0.f, 0.f, -5.f}); // Translation
 MVMatrix = glm::rotate(MVMatrix, ctx.time(), {0.f, 1.f, 0.f}); // Translation * Rotation
-MVMatrix = glm::translate(MVMatrix, -{2.f, 0.f, 0.f}); // Translation * Rotation * Translation
+MVMatrix = glm::translate(MVMatrix, {-2.f, 0.f, 0.f}); // Translation * Rotation * Translation
 MVMatrix = glm::scale(MVMatrix, glm::vec3{0.2f}); // Translation * Rotation * Translation * Scale
 ```
 
